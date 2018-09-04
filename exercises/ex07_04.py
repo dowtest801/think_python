@@ -6,7 +6,7 @@ def eval_loop():
 
     add = raw_input("> ")
     while add != "done":
-        s += add
+        s = add
         add = raw_input("> ")
 
     print eval(s)
